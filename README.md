@@ -11,17 +11,17 @@ Command line prompt that generates simple logos as .svg files.
 
 ## TODO
 - [x] Make this README
-- [ ] Create the index.js
-- [ ] `npm i inquirer@8.4.2`
+- [x] Create the index.js
+- [x] `npm i inquirer@8.2.4`
 - [ ] Get 3 characters
     - [ ] Validate that it's only 3 characters
 - [ ] Get a color
-    - [ ] List some pre-defined colors
     - [ ] Allow for hexcodes!
-- [ ] Get a shape
-    - [ ] Circle, Triangle, Square ONLY
+- [x] Get a shape
+    - [x] Circle, Triangle, Square ONLY
 - [ ] Create the 300x200 .SVG file "logo.svg"
     - [ ] console.log("Generated logo.svg")
+    - [ ] 
 
 
 ## User Story
