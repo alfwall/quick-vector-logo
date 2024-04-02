@@ -21,7 +21,8 @@ Command line prompt that generates simple logos as .svg files.
     - [x] Circle, Triangle, Square ONLY
 - [ ] Create the 300x200 .SVG file "logo.svg"
     - [ ] console.log("Generated logo.svg")
-    - [ ] 
+    - [ ] Figure out Snap.SVG shapes, text, and colors
+    - [ ] Generate those images!
 
 
 ## User Story
