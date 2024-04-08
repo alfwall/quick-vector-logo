@@ -13,8 +13,8 @@ Command line prompt that generates simple logos as .svg files.
 - [x] Make this README
 - [x] Create the index.js
 - [x] `npm i inquirer@8.2.4`
-- [ ] Get 3 characters
-    - [ ] Validate that it's only 3 characters
+- [x] Get 3 characters
+    - [x] Validate that it's only 3 characters
 - [ ] Get a color
     - [ ] Allow for hexcodes!
 - [x] Get a shape
