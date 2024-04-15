@@ -79,7 +79,7 @@ function Init() {
             shapeObject.setColor(shapeColor);
             let svgOutput = `<svg width="300" height="200"><g>`;
             svgOutput += shapeObject.render();
-            svgOutput += `<text fill="${textColor}" font-size="45" font-family="Comic Sans" x="0" y="0">${threeCharacters}</text>`;
+            svgOutput += `<text fill="${textColor}" font-size="45" font-family="Comic Sans" x="110" y="115">${threeCharacters}</text>`;
             svgOutput += "</g></svg>";
 
             writeFile("icon.svg", svgOutput, (err) => {
