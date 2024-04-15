@@ -20,13 +20,12 @@ Command line prompt that generates simple logos as .svg files.
     - [ ] Allow for hexcodes!
 - [x] Get a shape
     - [x] Circle, Triangle, Square ONLY
-    - [ ] Create Shape class, extended by Triangle, Circle, Square.
+    - [x] Create Shape class, extended by Triangle, Circle, Square.
 - [ ] Get a SHAPE color
     - [ ] Allow for hexcodes!
-- [ ] Create the 300x200 .SVG file "logo.svg"
-    - [ ] console.log("Generated logo.svg")
-    - [ ] Figure out Snap.SVG shapes, text, and colors
-    - [ ] Generate those images!
+- [x] Create the 300x200 .SVG file "logo.svg"
+    - [x] console.log("Generated logo.svg")
+    - [x] Generate those images!
 
 
 ## User Story
