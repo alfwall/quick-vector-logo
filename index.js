@@ -57,7 +57,7 @@ const questions = [
 function Init() {
     inquirer.prompt(questions)
         .then((answers) => {
-            console.log(`answers: ${JSON.stringify(answers)}`);
+            //console.log(`answers: ${JSON.stringify(answers)}`);
             // We have a shape, a color, and 3 characters
             var threeCharacters = answers.threeCharacters;
             var textColor = answers.textColor;
