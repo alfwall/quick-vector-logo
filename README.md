@@ -4,7 +4,7 @@
 Command line prompt that generates simple logos as .svg files.
 
 ## The Result
-![Click here for the video demo!](https://drive.google.com/file/d/1Q9uH3uyU3T_W9TdYkddDEyCGnSicQlK3/view)
+[Click here for the video demo!](https://drive.google.com/file/d/1Q9uH3uyU3T_W9TdYkddDEyCGnSicQlK3/view)
 
 ## Credits
 - [npm inquirer](https://www.npmjs.com/package/inquirer)
