@@ -1,6 +1,20 @@
 const inquirer = require("inquirer");
 const { Circle, Triangle, Square } = require("./lib/shapes.js");
 const { writeFile } = require("fs/promises");
+const parseColor = require('parse-color');
+
+function ValidateColor(input) {
+    // Accept no color input, since there's defaults
+    if (input === "") {
+        return true;
+    }
+    let parse = parseColor(input);
+    //console.log(parse);
+    if (parse["hex"] === undefined) {
+        return "Invalid color, try again.";
+    }
+    return true;
+}
 
 const questions = [
     {
@@ -19,9 +33,7 @@ const questions = [
         message: "Enter a text color:",
         type: "input",
         validate: (input) => {
-            console.log(`Color input: "${input}"`);
-
-            return true;
+            ValidateColor(input);
         }
     },
     {
@@ -35,9 +47,7 @@ const questions = [
         message: "Enter a shape color:",
         type: "input",
         validate: (input) => {
-            console.log(`Color input: "${input}"`);
-
-            return true;
+            ValidateColor(input);
         }
     }
 ];
