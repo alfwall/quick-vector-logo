@@ -4,7 +4,7 @@
 Command line prompt that generates simple logos as .svg files.
 
 ## The Result
-[Click here for the video demo!](https://drive.google.com/file/d/1Q9uH3uyU3T_W9TdYkddDEyCGnSicQlK3/view)
+[Click here for the video demo!](https://drive.google.com/file/d/1jx8Fg2ivsJrafCF63XuYQKId2UXCIIRy/view?usp=sharing)
 
 ## Credits
 - [npm inquirer](https://www.npmjs.com/package/inquirer)
@@ -27,6 +27,7 @@ Command line prompt that generates simple logos as .svg files.
 - [x] Create the 300x200 .SVG file "logo.svg"
     - [x] console.log("Generated logo.svg")
     - [x] Generate those images!
+- [x] Record demo of use WITH TESTS RUN
 
 
 ## User Story

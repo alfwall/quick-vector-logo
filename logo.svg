@@ -1,1 +1,1 @@
-<svg width="300" height="200"><g><rect x="75" y="25" width="150" height="150" fill="black" /><text fill="red" font-size="45" font-family="Comic Sans" x="110" y="115">LOL</text></g></svg>
+<svg width="300" height="200"><g><circle cx="150" cy="100" r="75" fill="black" /><text fill="red" font-size="45" font-family="Comic Sans" x="110" y="115">LOL</text></g></svg>
