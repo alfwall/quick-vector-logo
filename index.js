@@ -9,7 +9,7 @@ function ValidateColor(input) {
         return true;
     }
     let parse = parseColor(input);
-    console.log(parse);
+    //console.log(parse);
     if (parse["hex"] === undefined) {
         return "Invalid color, try again.";
     }

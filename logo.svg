@@ -1,1 +1,1 @@
-<svg width="300" height="200"><g><polygon points="40,175 150,0 260,175" fill="#ffffff" /><text fill="#000000" font-size="45" font-family="Comic Sans" x="110" y="115">pen</text></g></svg>
+<svg width="300" height="200"><g><circle cx="150" cy="100" r="75" fill="blue" /><text fill="red" font-size="45" font-family="Comic Sans" x="110" y="115">red</text></g></svg>
