@@ -4,10 +4,11 @@
 Command line prompt that generates simple logos as .svg files.
 
 ## The Result
-![Screenshot of the deployed project.](SCREENSHOT_OF_PROJECT_IN_ASSETS)
+![Click here for the video demo!](https://drive.google.com/file/d/1Q9uH3uyU3T_W9TdYkddDEyCGnSicQlK3/view)
 
 ## Credits
-- [Description of whose code you've taken](URL_TO_THEIR_WEBSITE_AND_OR_CODE)
+- [npm inquirer](https://www.npmjs.com/package/inquirer)
+- [npm parse-color](https://www.npmjs.com/package/parse-color)
 
 ## TODO
 - [x] Make this README
