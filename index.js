@@ -9,7 +9,7 @@ function ValidateColor(input) {
         return true;
     }
     let parse = parseColor(input);
-    //console.log(parse);
+    console.log(parse);
     if (parse["hex"] === undefined) {
         return "Invalid color, try again.";
     }
@@ -33,7 +33,7 @@ const questions = [
         message: "Enter a text color:",
         type: "input",
         validate: (input) => {
-            ValidateColor(input);
+            return ValidateColor(input);
         }
     },
     {
@@ -47,7 +47,7 @@ const questions = [
         message: "Enter a shape color:",
         type: "input",
         validate: (input) => {
-            ValidateColor(input);
+            return ValidateColor(input);
         }
     }
 ];
